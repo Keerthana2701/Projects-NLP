@@ -2,7 +2,7 @@
 
 
 
-# Text Classification
+# 1. Text Classification
 
 Text classification is an appliation of NLP where we create a model which classiifes human language into different classes
 
