@@ -42,6 +42,8 @@ We get the positive anf negative words count of this tweet.
 
 tokenize paragraph from wiki page since the wiki page has text in form of paragraphs
 
+wiki page to summarize : https://en.wikipedia.org/wiki/Global_warming
+
 use urlib to  get complete html doc of this web page.
 
 now we need string data as we cannot use html data
