@@ -36,3 +36,40 @@ Fetch the tweets based on a particular word and preprocess the tweets
 load the classifier and tfidf pickle files and use for predicting the preprocessed tweets
 
 We get the positive anf negative words count of this tweet.
+
+
+# 3. Text Summarization
+
+tokenize paragraph from wiki page since the wiki page has text in form of paragraphs
+
+use urlib to  get complete html doc of this web page.
+
+now we need string data as we cannot use html data
+
+so use beautiful soup and lxml libraries
+
+lxml is  a parser that beautiful source uses
+
+parse the data using beautiful soup to get a better clean html data
+
+from this fetch the text data
+
+preprocess it.
+
+tokenize the sentences
+
+build histogram by taking the count for each words in all sentences
+
+build weighted histogram by dividing  each count  by max value count
+
+now we get weighted score for each word
+
+find sentence score by adding the values of words in the sentence
+
+now each sentence has a score
+
+sort the sentence with high scores and take first n high sentence with max score
+
+
+those sentences gives the summary of that wiki page
+
