@@ -75,3 +75,14 @@ sort the sentence with high scores and take first n high sentence with max score
 
 those sentences gives the summary of that wiki page
 
+
+
+# 4. Spam Classifier with naive bayes model
+
+dataset : https://archive.ics.uci.edu/ml/datasets/sms+spam+collection
+
+  preprocess the dats using re 
+  
+  bag of words model  and naive bayes MultinomialNB to predict the message as spam or ham
+  
+  print the accuracy and confusion matrix to find the correct predeitions
